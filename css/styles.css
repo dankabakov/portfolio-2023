@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+h2
+{
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+/* Area #1 */
+
+.skills-table
+{
+  align-content: center;
+}
+
+.container {
+  padding: 0;
+  padding-bottom: -5px;
+  padding-top: 100px;
+  position: relative;
+  z-index: -3;
+  background: rgb(1,118,157);
+background: linear-gradient(180deg, rgba(1,118,157,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.mountain
+{
+  margin-bottom: -20px;
+}
+
+/* end of Area #1 */
+
+.profile-pic {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.learning-1
+{
+  width: 25%;
+  padding: 20px 60px 0px 20px;
+  margin: 0px;
+  display: inline-block;
+}
+
+
+.learning-2
+{
+  text-align: left;
+  width: 45%;
+  padding: 20px 20px 35px 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.skill-row
+{
+
+
+}
+
+
+.skill-title
+{
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+
+.skill-text
+{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.img-skills
+{
+  padding: 20px;
+  width: 80px;
+}
+
+.skill-1
+{
+  vertical-align: top;
+  height: 300px;
+  width: 20%;
+  padding: 20px 20px 35px 20px;
+  margin: 10px;
+  background-color: #01769d;
+  display: inline-block;
+  border-radius: 10px;
+
+}
+.skill-2
+{
+  vertical-align: top;
+  height: 300px;
+  width: 20%;
+  padding: 20px 20px 35px 20px;
+  margin: 10px;
+  background-color: #01769d;
+  display: inline-block;
+  border-radius: 10px;
+}
+.skill-3
+{
+  vertical-align: top;
+  height: 300px;
+  width: 20%;
+  padding: 20px 20px 35px 20px;
+  margin: 10px;
+  background-color: #01769d;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+
+.middle-container {
+margin: -110px 200px 0 200px;
+z-index: -5;
+}
+
+.bottom-container {
+  background-color: #25769D;
+  padding: 20px;
+  color: white;
+}
+
+  .button{
+  position:relative;
+  display:inline-block;
+  margin:20px;
+}
+
+.contact-me
+{
+  margin: 80px auto 80px auto;
+}
+
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#3FBAE3;
+  display:block;
+  position:relative;
+  padding:20px 40px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow:inset 0 1px 0 #c1efff, 0 10px 0 #25769D;
+  -moz-box-shadow:inset 0 1px 0 #c1efff, 0 10px 0 #25769D;
+  box-shadow:inset 0 1px 0 #c1efff, 0 10px #25769D;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:#3FBAE3;
+
+  -webkit-box-shadow:inset 0 1px 0 #c1efff, inset 0 -3px 0 #25769D;
+  -moz-box-shadow:inset 0 1px 0 #c1efff, inset 0 -3pxpx 0 #25769D;
+  box-shadow:inset 0 1px 0 #c1efff, inset 0 -3px 0 #25769D;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
